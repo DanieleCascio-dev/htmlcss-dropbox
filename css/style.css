@@ -45,6 +45,20 @@ img {
   margin-bottom: 2rem;
 }
 
+.col {
+  background-color: darkgreen;
+}
+
+.c-small {
+  min-height: 100%;
+  width: 40%;
+}
+
+.c-large {
+  width: 60%;
+  min-height: 100%;
+}
+
 /* /COMMON */
 
 /* HEADER */
@@ -67,6 +81,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 9999;
   width: 100%;
 }
 
@@ -102,19 +117,6 @@ nav {
   gap: 1rem;
 }
 
-.col {
-  background-color: darkgreen;
-}
-
-.c-small {
-  min-height: 100%;
-  width: 40%;
-}
-
-.c-large {
-  width: 60%;
-  min-height: 100%;
-}
 /* /Hero */
 
 /* /HEADER */
@@ -198,5 +200,14 @@ nav {
 }
 
 /* /section operations */
+
+/* Section team */
+
+.section-team {
+  background-color: lightgreen;
+  min-height: 200px;
+}
+
+/* /Section team */
 
 /* /MAIN */
