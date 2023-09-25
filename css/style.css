@@ -27,14 +27,21 @@ img {
   display: flex;
 }
 
+.container-large {
+  margin: 0 auto;
+  width: 70%;
+}
+
 /* /COMMON */
 
 /* HEADER */
 
 header {
-  min-height: 500px;
+  min-height: 600px;
   /* debug */
   background-color: lightblue;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Nav */
@@ -44,6 +51,10 @@ nav {
   /* debug */
   background-color: lightcoral;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .dropbox {
@@ -59,5 +70,38 @@ nav {
 }
 
 /* Nav */
+
+/* Hero */
+
+.hero {
+  margin-top: 80px;
+  /* debug */
+  background-color: lightgreen;
+  min-height: 400px;
+  padding: 1rem;
+}
+
+.row-hero {
+  width: 100%;
+  /* debug */
+  min-height: 300px;
+  background-color: aquamarine;
+  gap: 1rem;
+}
+
+.col {
+  background-color: darkgreen;
+}
+
+.c-small {
+  min-height: 100%;
+  width: 40%;
+}
+
+.c-large {
+  width: 60%;
+  min-height: 100%;
+}
+/* /Hero */
 
 /* /HEADER */
