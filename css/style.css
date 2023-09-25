@@ -175,4 +175,28 @@ nav {
 }
 /* /section partner */
 
+/* section operations */
+
+.operations-section {
+  /* debug */
+  background-color: lightgreen;
+  min-height: 600px;
+}
+
+.row-operations {
+  /* debugg */
+  min-height: 500px;
+  width: 100%;
+  gap: 0.5rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.row-operations .col {
+  width: calc(95% / 3);
+  background-color: darkgreen;
+}
+
+/* /section operations */
+
 /* /MAIN */
