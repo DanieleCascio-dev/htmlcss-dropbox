@@ -121,7 +121,7 @@ nav {
 
 /* MAIN */
 
-/* Section */
+/* Section Buisness */
 
 .row-buisness {
   /* debug */
@@ -152,6 +152,27 @@ nav {
 .row-enterprise div {
   background-color: darkgreen;
 }
-/* /Section */
+/* /Section buisness */
+
+/* section partner */
+
+.partner-section {
+  /* debug */
+  min-height: 400px;
+  background-color: lightgreen;
+}
+
+.row-partner {
+  min-height: 400px;
+  width: 100%;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.row-partner .col {
+  /* debug */
+  background-color: darkgreen;
+}
+/* /section partner */
 
 /* /MAIN */
