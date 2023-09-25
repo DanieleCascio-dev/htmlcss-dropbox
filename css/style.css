@@ -32,6 +32,19 @@ img {
   width: 70%;
 }
 
+.container-small {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.m-btm-big {
+  margin-bottom: 3rem;
+}
+
+.m-btm {
+  margin-bottom: 2rem;
+}
+
 /* /COMMON */
 
 /* HEADER */
@@ -105,3 +118,40 @@ nav {
 /* /Hero */
 
 /* /HEADER */
+
+/* MAIN */
+
+/* Section */
+
+.row-buisness {
+  /* debug */
+  width: 100%;
+  padding: 1rem;
+  background-color: lightgreen;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.row-buisness .col {
+  width: calc(95% / 3);
+  /* debug */
+  min-height: 400px;
+  background-color: darkgreen;
+  border: 1px solid black;
+}
+
+.row-enterprise {
+  padding: 1rem;
+  /* debug */
+  min-height: 200px;
+  background-color: lightgreen;
+}
+
+/* debug */
+.row-enterprise div {
+  background-color: darkgreen;
+}
+/* /Section */
+
+/* /MAIN */
