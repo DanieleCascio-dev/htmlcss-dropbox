@@ -21,6 +21,10 @@ img {
   max-width: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
 /* COMMON */
 
 .flex {
@@ -236,4 +240,15 @@ nav {
 }
 
 /* /section-free-trial */
+
+/* section ask   */
+
+.section-ask {
+  /* debug */
+  min-height: 500px;
+  text-align: center;
+}
+
+/* section ask   */
+
 /* /MAIN */
