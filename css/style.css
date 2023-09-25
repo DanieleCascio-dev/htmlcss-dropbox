@@ -66,7 +66,7 @@ img {
 header {
   min-height: 600px;
   /* debug */
-  background-color: lightblue;
+  background-color: var(--lightblue-bg);
   justify-content: center;
   align-items: center;
 }
@@ -224,4 +224,16 @@ nav {
   border: 1px dashed darkgreen;
 }
 /* /section partenrship */
+
+/* section-free-trial */
+.section-free-trial {
+  /* debug */
+  background-color: var(--lightblue-bg);
+  min-height: 300px;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* /section-free-trial */
 /* /MAIN */
