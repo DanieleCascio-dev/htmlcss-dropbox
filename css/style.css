@@ -210,4 +210,18 @@ nav {
 
 /* /Section team */
 
+/* section partenrship */
+.section-partenrship {
+  /* debug */
+  background-color: lightgreen;
+  height: 400px;
+}
+
+.section-partenrship .row {
+  height: 100%;
+  width: calc(100% / 3);
+  /* debug */
+  border: 1px dashed darkgreen;
+}
+/* /section partenrship */
 /* /MAIN */
