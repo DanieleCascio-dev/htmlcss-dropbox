@@ -1,4 +1,6 @@
 :root {
+  --lightblue-bg: #b4d0e7;
+  --blue-bg: #0061ff;
 }
 
 /* RESET */
@@ -9,6 +11,53 @@
   box-sizing: border-box;
 }
 
-body {
+body > * {
   font-family: "Open Sans", sans-serif;
+  /* debug */
+  border: 1px solid black;
 }
+
+img {
+  max-width: 100%;
+}
+
+/* COMMON */
+
+.flex {
+  display: flex;
+}
+
+/* /COMMON */
+
+/* HEADER */
+
+header {
+  min-height: 500px;
+  /* debug */
+  background-color: lightblue;
+}
+
+/* Nav */
+
+nav {
+  height: 80px;
+  /* debug */
+  background-color: lightcoral;
+  justify-content: space-between;
+}
+
+.dropbox {
+  height: 100%;
+  width: 30%;
+  background-color: lightgreen;
+}
+
+.actions {
+  height: 100%;
+  width: 30%;
+  background-color: lightgreen;
+}
+
+/* Nav */
+
+/* /HEADER */
