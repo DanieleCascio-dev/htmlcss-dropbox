@@ -14,6 +14,11 @@
 body > * {
   font-family: "Open Sans", sans-serif;
   /* debug */
+  border: 1px dotted darkgray;
+}
+
+/* debug */
+main > * {
   border: 1px solid black;
 }
 
@@ -81,6 +86,7 @@ nav {
   height: 80px;
   /* debug */
   background-color: lightcoral;
+  border: 1px black dashed;
   justify-content: space-between;
   position: fixed;
   top: 0;
@@ -252,3 +258,55 @@ nav {
 /* section ask   */
 
 /* /MAIN */
+
+/* FOOTER */
+
+footer {
+  /* debug */
+  min-height: 400px;
+  padding: 1rem;
+
+  background-color: black;
+  color: white;
+}
+
+/* /FOOTER */
+
+/* Footer-top */
+
+.footer-top {
+  background-color: lightgreen;
+  min-height: 300px;
+  padding: 1rem;
+}
+
+.row-footer {
+  gap: 1rem;
+}
+
+.row-footer .col {
+  width: calc(95% / 5);
+
+  /* debug */
+  min-height: 250px;
+  background-color: green;
+}
+/* /Footer-top */
+
+.footer-bottom hr {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  width: 10%;
+}
+
+/* Footer-bottom */
+
+.footer-bottom {
+  /* debug */
+  background-color: darkcyan;
+  min-height: 100px;
+
+  position: relative;
+  padding: 1rem;
+}
