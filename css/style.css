@@ -110,9 +110,18 @@ a {
   margin-bottom: 1rem;
 }
 
-.buy-now {
+#buy-now {
   text-decoration: underline;
-  color: initial;
+  color: #2626f1;
+}
+
+.hr-card {
+  width: 20%;
+  margin-left: 5px;
+}
+
+.card-sumup ul li {
+  margin-top: 0.5rem;
 }
 /* Typography */
 
