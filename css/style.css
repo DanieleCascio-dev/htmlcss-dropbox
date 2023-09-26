@@ -130,6 +130,22 @@ a {
 .bg-orange {
   background-color: #ff1c1c;
 }
+
+.bg-red {
+  background-color: #d5001f;
+}
+
+.bg-light-blue {
+  background-color: #b4d0e7;
+}
+
+.bg-dark-blue {
+  background-color: #0d2481;
+}
+
+.bg-yellow {
+  background-color: #ffd830;
+}
 /* Card */
 
 .card {
@@ -344,13 +360,10 @@ nav {
 .section-partenrship .row {
   height: 100%;
   width: calc(100% / 3);
-  /* debug */
-  border: 1px dashed darkgreen;
   flex-wrap: wrap;
 }
 
 .c-mid {
-  border: 1px solid blue;
   aspect-ratio: 1/1;
   padding: 1.5rem;
 }
