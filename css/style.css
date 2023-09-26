@@ -337,9 +337,7 @@ nav {
 
 /* section partenrship */
 .section-partenrship {
-  /* debug */
-  background-color: lightgreen;
-
+  width: 100%;
   /* aspect-ratio: 1/ 1; */
 }
 
@@ -365,6 +363,20 @@ nav {
   width: 70%;
   fill: white;
 }
+
+.middle {
+  aspect-ratio: 1/1;
+  overflow-y: auto;
+}
+
+.middle .card {
+  padding: 2rem;
+}
+
+.designt-logo {
+  width: 60%;
+}
+
 /* /section partenrship */
 
 /* section-free-trial */
