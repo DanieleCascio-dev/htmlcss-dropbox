@@ -88,11 +88,15 @@ a {
 .icon-large {
   font-size: 2.5rem;
 }
-/* Crad */
+
+.border-lg {
+  border: 1px solid lightgray;
+}
+/* Card */
 
 .card {
   width: 100%;
-  border: 1px solid lightgray;
+
   /* padding: 1rem; */
 }
 
@@ -120,8 +124,12 @@ a {
   margin-left: 5px;
 }
 
+.card-sumup {
+  padding: 1rem;
+}
+
 .card-sumup ul li {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 /* Typography */
 
@@ -207,7 +215,8 @@ nav {
 
 .title-img {
   position: absolute;
-  width: 65%;
+  max-width: 600px;
+  width: 75%;
 }
 
 /* /Hero */
@@ -224,27 +233,30 @@ nav {
   padding: 1rem;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: stretch;
   gap: 0.5rem;
 }
 
 .row-buisness .col {
   width: calc(95% / 3);
-  /* debug */
-  min-height: 800px;
-  border: 1px solid black;
+}
+
+.enterprise .card-haed {
+  border-bottom: 1px solid lightgray;
 }
 
 .row-enterprise {
-  padding: 1rem;
+  padding: 0.5rem;
   /* debug */
   min-height: 200px;
-  background-color: lightgreen;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
-/* debug */
-.row-enterprise div {
-  background-color: darkgreen;
+.row-enterprise .col {
+  padding: 1rem;
 }
+
 /* /Section buisness */
 
 /* section partner */
