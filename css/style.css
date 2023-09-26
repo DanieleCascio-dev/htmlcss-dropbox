@@ -159,7 +159,7 @@ h2 {
 
 h3 {
   font-size: 1.3rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 /* /COMMON */
 
@@ -288,11 +288,6 @@ nav {
 
 /* section operations */
 
-.operations-section {
-  /* debug */
-  background-color: lightgreen;
-}
-
 .row-operations {
   /* debugg */
 
@@ -304,7 +299,6 @@ nav {
 
 .row-operations .col {
   width: calc(95% / 3);
-  background-color: darkgreen;
 }
 
 /* /section operations */
