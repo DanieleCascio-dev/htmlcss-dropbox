@@ -18,9 +18,9 @@ body > * {
 }
 
 /* debug */
-main > * {
+/* main > * {
   border: 1px solid black;
-}
+} */
 
 img {
   max-width: 100%;
@@ -57,6 +57,10 @@ a {
   margin-bottom: 3rem;
 }
 
+.m-btm-big5 {
+  margin-bottom: 5rem;
+}
+
 .m-btm {
   margin-bottom: 2rem;
 }
@@ -79,10 +83,20 @@ a {
   /* min-height: 100%; */
 }
 
+/* icon */
+.fa-check {
+  color: var(--blue-bg);
+}
+
 .button {
   padding: 0.2rem 1.2rem;
   background-color: var(--blue-bg);
   color: white;
+}
+
+.button-white {
+  padding: 0.2rem 1.2rem;
+  border: 1px solid black;
 }
 
 .icon-large {
@@ -230,9 +244,9 @@ nav {
 .row-buisness {
   /* debug */
   width: 100%;
-  padding: 1rem;
+
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: stretch;
   gap: 0.5rem;
 }
@@ -261,23 +275,15 @@ nav {
 
 /* section partner */
 
-.partner-section {
-  /* debug */
-  min-height: 400px;
-  background-color: lightgreen;
-}
-
 .row-partner {
-  min-height: 400px;
   width: 100%;
-  padding: 1rem;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
-.row-partner .col {
-  /* debug */
-  background-color: darkgreen;
+.row-partner .c-small {
+  padding: 1.5rem 0.5rem 0 0.5rem;
 }
+
 /* /section partner */
 
 /* section operations */
