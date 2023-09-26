@@ -74,8 +74,11 @@ a {
 }
 
 .c-small {
-  min-height: 100%;
   width: 40%;
+}
+
+.c-mid {
+  width: 50%;
 }
 
 .c-large {
@@ -305,11 +308,10 @@ nav {
 
 /* Section team */
 
-.section-team {
-  background-color: lightgreen;
-  min-height: 200px;
+#client {
+  text-decoration: underline;
+  color: #2626f1;
 }
-
 /* /Section team */
 
 /* section partenrship */
