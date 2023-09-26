@@ -158,7 +158,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
 /* /COMMON */
@@ -291,15 +291,14 @@ nav {
 .operations-section {
   /* debug */
   background-color: lightgreen;
-  min-height: 600px;
 }
 
 .row-operations {
   /* debugg */
-  min-height: 500px;
+
   width: 100%;
   gap: 0.5rem;
-  padding: 1rem;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
