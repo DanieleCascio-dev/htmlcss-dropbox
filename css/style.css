@@ -13,8 +13,6 @@
 
 body > * {
   font-family: "Open Sans", sans-serif;
-  /* debug */
-  border: 1px dotted darkgray;
 }
 
 /* debug */
@@ -299,10 +297,24 @@ nav a {
 
 /* Section Buisness */
 
-.row-buisness {
-  /* debug */
-  width: 100%;
+.section-actions {
+  gap: 2rem;
+}
 
+input {
+  appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #999;
+}
+
+input:checked {
+  border: 4px solid #0061ff;
+}
+
+.row-buisness {
+  width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
