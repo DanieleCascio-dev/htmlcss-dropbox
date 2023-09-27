@@ -187,7 +187,8 @@ a {
 
 .hr-card {
   width: 20%;
-  margin-left: 5px;
+  margin-left: 15px;
+  border: 1px solid lightgray;
 }
 
 .card-sumup {
@@ -329,7 +330,36 @@ input:checked {
   border-bottom: 1px solid lightgray;
 }
 
-.row-enterprise {
+.price {
+  margin-bottom: 0.5rem;
+}
+
+.price-time {
+  color: gray;
+}
+
+/* Flex prende come figlio anche del demplice testo dentro di esso? */
+
+.card-sumup {
+  padding: 1.5rem;
+}
+
+.card-sumup p {
+  margin-bottom: 2rem;
+}
+
+.card-list li,
+.card-sumup li {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.row-buisness .card {
+  min-width: 160px;
+}
+
+.card-sumup li .row-enterprise {
   padding: 0.5rem;
   /* debug */
   min-height: 200px;
