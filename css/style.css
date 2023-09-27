@@ -102,10 +102,21 @@ a {
   padding: 0.2rem 0.8rem;
   background-color: var(--blue-bg);
   color: white;
+  /* display: inline-block;
+  height: 3rem;
+  width: 90%;
+  line-height: 3rem;
+  text-align: center; */
 }
 
 .button:hover {
   filter: brightness(1.5);
+}
+
+.full {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
 }
 
 .button-white {
@@ -320,6 +331,7 @@ input:checked {
   justify-content: space-between;
   align-items: stretch;
   gap: 0.5rem;
+  font-size: 0.9rem;
 }
 
 .row-buisness .col {
