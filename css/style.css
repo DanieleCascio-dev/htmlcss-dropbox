@@ -60,6 +60,8 @@ a {
   width: 60%;
 }
 
+/* Margin */
+
 .m-btm-big {
   margin-bottom: 3rem;
 }
@@ -76,9 +78,7 @@ a {
   margin-bottom: 1rem;
 }
 
-.col {
-  /* background-color: darkgreen; */
-}
+/* Column */
 
 .c-small {
   width: 40%;
@@ -90,23 +90,25 @@ a {
 
 .c-large {
   width: 60%;
-  /* min-height: 100%; */
 }
 
 /* icon */
+
 .fa-check {
   color: var(--blue-bg);
 }
+
+.icon-large {
+  font-size: 2.5rem;
+}
+
+/* Button */
 
 .button {
   padding: 0.2rem 0.9rem;
   background-color: var(--blue-bg);
   color: white;
-  /* display: inline-block;
-  height: 3rem;
-  width: 90%;
-  line-height: 3rem;
-  text-align: center; */
+  display: inline-block;
 }
 
 .button:hover {
@@ -129,9 +131,7 @@ a {
   filter: brightness(1.3);
 }
 
-.icon-large {
-  font-size: 2.5rem;
-}
+/* Border and background color */
 
 .border-b {
   border: 1px solid black;
@@ -172,13 +172,12 @@ a {
 .bg-yellow {
   background-color: #ffd830;
 }
+
 /* Card */
 
 .card {
   width: 100%;
   height: 100%;
-
-  /* padding: 1rem; */
 }
 
 .card-head {
@@ -213,6 +212,7 @@ a {
 .card-sumup ul li {
   margin-top: 1rem;
 }
+
 /* Typography */
 
 h1 {
@@ -234,8 +234,6 @@ h3 {
 /* HEADER */
 
 header {
-  min-height: 600px;
-  /* debug */
   background-color: var(--lightblue-bg);
   justify-content: center;
   align-items: center;
