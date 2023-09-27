@@ -101,7 +101,7 @@ a {
 }
 
 .button {
-  padding: 0.2rem 1.2rem;
+  padding: 0.2rem 0.8rem;
   background-color: var(--blue-bg);
   color: white;
 }
@@ -163,6 +163,7 @@ a {
 
 .card {
   width: 100%;
+  height: 100%;
 
   /* padding: 1rem; */
 }
@@ -353,6 +354,9 @@ nav {
   width: calc(95% / 3);
 }
 
+.row-operations .card-content p {
+  font-size: 0.8rem;
+}
 /* /section operations */
 
 /* Section team */
