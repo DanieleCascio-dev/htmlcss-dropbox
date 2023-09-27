@@ -46,6 +46,10 @@ a {
   align-items: center;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
 .container-large {
   margin: 0 auto;
   max-width: 1100px;
@@ -270,7 +274,6 @@ nav {
 
 .row-hero {
   width: 100%;
-
   gap: 1rem;
   font-size: 0.9rem;
   position: relative;
@@ -424,9 +427,41 @@ nav {
 .section-ask {
   /* debug */
   min-height: 500px;
-  text-align: center;
+  text-align: left;
+}
+.section-ask li {
+  padding: 3rem 0;
+  border-bottom: 1px solid lightgray;
 }
 
+.section-ask p {
+  font-weight: bold;
+}
+
+.section-ask li:first-child {
+  border-top: 1px solid gray;
+}
+.hidden {
+  display: none;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.icon-hidden {
+  display: none;
+}
+
+.section-ask li:hover .hidden {
+  display: block;
+}
+
+.section-ask li:hover .icon-hidden {
+  display: block;
+}
+
+.section-ask li:hover .icon-display {
+  display: none;
+}
 /* section ask   */
 
 /* /MAIN */
